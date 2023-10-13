@@ -13,6 +13,8 @@ Where continent is not null
 order by 1,2
 
 
+	
+
 -- Looking for Total Cases Vs Deaths
 
 Select Location, date, total_cases, total_deaths, 
