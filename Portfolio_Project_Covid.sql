@@ -78,7 +78,7 @@ Select date, SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as tota
 SUM(cast(new_deaths as int))/SUM(New_cases)*100 as DeathPercentages
 --(total_deaths/total_cases)*100as DeathPercentage
 From PortfolioProject..CovidDeaths
---where location like '%Nigeria%'
+where location like '%Nigeria%'
 Where continent is not null
 group by date
 order by 1,2
